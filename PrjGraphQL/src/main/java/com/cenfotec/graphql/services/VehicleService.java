@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class VehicleService {
+	
 	@Autowired
 	VehicleRepository vehicleRepo;
 	public List<Vehicle> getAllVehicles(int count) {
